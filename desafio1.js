@@ -1,1 +1,1 @@
-// first commit change
+db.produtos.countDocuments({})
