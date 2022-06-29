@@ -1,8 +1,5 @@
 // Crie uma query que faça tanto a inserção dos valores combo e tasty no array tags de todos os sanduíches.
 // Ordene os valores de tags em ordem alfabética ascendente.
-// db.produtos.updateMany({}, { $push: { tags: { $each: ["combo", "tasty"] }, sortBy: 1 } });
-// db.produtos.updateMany({}, { $push: { tags: { $each: ["combo", "tasty"] }, sortBy: 1 } });
-
 db.produtos.updateMany({}, {
   $push: {
     tags: {
